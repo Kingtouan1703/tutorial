@@ -1,0 +1,17 @@
+:root {
+  --main-color: #3498db;
+  --main-font: "Arial", sans-serif;
+}
+
+body {
+  color: var(--main-color);
+  font-family: var(--main-font);
+}
+
+a {
+  color: var(--main-color);
+}
+
+h1 {
+  color: var(--main-color);
+}

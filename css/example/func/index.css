@@ -1,0 +1,10 @@
+.example-div {
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(to right, red, yellow);
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  line-height: 200px;
+  font-size: 20px;
+  transform: translate(20px, 20px);
+}
