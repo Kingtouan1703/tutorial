@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+.container {
+  display: flex;
+}
+.container .form-container {
+  padding-left: 175px;
+  padding-right: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.container .img-container {
+  width: 50%;
+  height: 100vh;
+  background-image: url("https://s3-alpha-sig.figma.com/img/c230/ffba/520fab60716f712257d7f6a7fc48a42f?Expires=1699228800&Signature=F-BFCZ8BhwHq7x65e6CrHX696CR5dtAI~vtFmnKGIEi6uyJJpYdTMyP59kLdAy4pg24eT5AOSCEcNDeLCe0N1mI9Dl2PC~uvAOEnIssT57MsVrRXOGUW6RMJfZ9sNQSmCXhWafYvpAnIu9z0oNun0vIEdoGI6G8QK8NCL0X7My1rlqM3IywtsuC5~RI9aXeKtkA0ykhppf0EPOeyfUsYJrbWHGSIdpY3f-jOZEIFpoJajpVY8edoGZ6udGDvEZ64Amg8wF6jFKVgLSzve~cHGI~robW7iSUPXzSu4oXLt1O9jz1wnS5Muf~uubUz4lWfY-jh8xjmQUG~0GHnH5mTwA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  border-radius: 45px 0px 0px 45px;
+  background-size: cover;
+}
+.form .title {
+  padding-bottom: 62px;
+}
+.form .checkbox-container {
+  display: flex;
+  gap: 4px;
+}
+.form .submit-button {
+  width: 100%;
+  height: 32px;
+  padding: 6px;
+  border-radius: 10px;
+  border: 1px solid #3a5b22;
+  background: #3a5b22;
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container .input-container {
+  padding-bottom: 24px;
+}
+.container .input-container.last {
+  padding-bottom: 20px;
+}
+.container .input-container .label-input {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.container .input-container .input {
+  width: 404px;
+  height: 32px;
+  padding: 10px 0px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+}
+/* .container .line {
+  margin-top: 20px;
+  position: relative;
+  border: 2px solid #f5f5f5;
+  height: 1px;
+}
+.container .line .or-title {
+  width: 20px;
+  position: absolute;
+  top: -12px;
+  right: 50%;
+  background-color: white;
+} */
+.buttons-container {
+  padding-top: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons-container .sign-in-button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  padding: 4px 20px;
+}
+.sign-in-content {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.line-way {
+  padding-top: 20px;
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+.line-way .line {
+  width: 45%;
+  height: 2px;
+  border: 2px solid #f5f5f5;
+}
