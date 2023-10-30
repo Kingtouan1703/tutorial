@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Satoshi Variable;
+}
+
+.container {
+  height: 100vh;
+  background-color: #000;
+}
+.main-container {
+  width: 1236px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 36px;
+  align-items: center;
+}
+.nav-bar .logo-container {
+  font-size: 36px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: linear-gradient(
+        to bottom right,
+        #ab572d 0%,
+        #ec9a52 22%,
+        #a5470f 50%,
+        #ab5829 50%
+      )
+      bottom right / 50% 50% no-repeat,
+    linear-gradient(
+        to bottom left,
+        #ab572d 0%,
+        #ec9a52 22%,
+        #a5470f 50%,
+        #ab5829 50%
+      )
+      bottom left / 50% 50% no-repeat,
+    linear-gradient(
+        to top left,
+        #ab572d 0%,
+        #ec9a52 22%,
+        #a5470f 50%,
+        #ab5829 50%
+      )
+      top left / 50% 50% no-repeat,
+    linear-gradient(
+        to top right,
+        #ab572d 0%,
+        #ec9a52 22%,
+        #a5470f 50%,
+        #ab5829 50%
+      )
+      top right / 50% 50% no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-bar .navigators {
+  display: flex;
+  gap: 70px;
+  justify-content: space-between;
+}
+
+.navigators .navigator {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 4px;
+  cursor: pointer;
+}
+.icons-container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.content-container {
+  display: flex;
+  gap: 54px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  height: 358px;
+}
+.content .title {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 67px;
+}
+.content .paragraph {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 64px;
+}
+.content .buy-button {
+  display: flex;
+  padding: 14px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #ab572d;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: unset;
+}
+.content .buy-button:hover {
+  opacity: 0.5;
+}
+
+.img-container {
+}
+
+.img-container img {
+  width: 430px;
+}
