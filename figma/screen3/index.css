@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #fffaeb;
+  width: 100%;
+  height: 100vh;
+  padding: 40px 100px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #262626;
+  margin-bottom: 128px;
+}
+.nav-container .logo-container img {
+  width: 127px;
+  height: 63px;
+}
+.nav-container .flag-container {
+}
+.select-conainer {
+  width: 1136px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttons-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  text-align: center;
+  gap: 14px;
+}
+.tick-button.row-2 {
+  grid-column-start: 2;
+}
+.information-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 40px 30px;
+  }
+  .buttons-container {
+    display: block;
+  }
+  .select-conainer {
+    width: 100%;
+  }
+  .information-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* Your CSS rules for smaller screens here */
+}
